@@ -12,3 +12,8 @@ The main script is heavily commented, so that each step is succinctly yet --hope
 
 The CODEBOOK Markdown file contains additional information to illustrate the data sets and the data manipulations performed. 
 
+To read the final tidy data set I produced, adpat the command: 
+
+data <- read.table("c3_w4_FinalTidyData", header = TRUE) 
+
+
