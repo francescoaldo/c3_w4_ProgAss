@@ -17,7 +17,7 @@ To read the final tidy data set I produced, adpat the command:
 data <- read.table("c3_w4_FinalTidyData", header = TRUE) 
 
 NOTE that all missing values inspection took place "behind the curtains"; however, it can be checked that: 
-fff <- final.dataset[complete.cases(final.dataset), ] 
+fff <- final.dataset[complete.cases(final.dataset), ] ; 
 identical(fff, final.dataset) 
 returns TRUE 
 
